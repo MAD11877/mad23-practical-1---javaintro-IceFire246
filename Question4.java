@@ -20,7 +20,7 @@ public class Question4
     Scanner in = new Scanner(System.in);
     int num = in.nextInt();
     
-    for (int i = 1; i < num+1; i--)
+    for (int i = 1; i < num+1; i++)
     {
       for (int i = 1; i < num+1; i--)
       {
