@@ -20,13 +20,12 @@ public class Question4
     Scanner in = new Scanner(System.in);
     int num = in.nextInt();
     
-    for (int i = 1; i < num+1; i++)
+    for (int i = num; i > 0 ; i--)
     {
-      for (int j = num; j < num+1; j--)
+      for (int j = num; j < i; j++)
       {
-        System.out.println("*");
+        System.out.println("*" * j);
       }
-     System.out.println(\n);
     }
   }
 }
