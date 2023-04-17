@@ -22,7 +22,7 @@ public class Question4
     
     for (int i = num; i > 0 ; i--)
     {
-      for (int j = num; j > 0; j--)
+      for (int j = 0; j < i; j++)
       {
         System.out.print("*");
       }
