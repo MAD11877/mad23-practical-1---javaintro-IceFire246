@@ -22,12 +22,12 @@ public class Question4
     
     for (int i = num; i > 0 ; i--)
     {
-      for (int j = num; j < i; j++)
+      for (int j = num; j > 0; j--)
       {
         System.out.print("*");
       }
       
-      System.out.print(\r);
+      System.out.println();
     }
   }
 }
