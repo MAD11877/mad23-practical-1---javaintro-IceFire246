@@ -27,6 +27,11 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
+    int loop = in.newInt();
     
+    while (loop-- > 0)
+    {
+      int num = in.nextInt();
+      
   }
 }
