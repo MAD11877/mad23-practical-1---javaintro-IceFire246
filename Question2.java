@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Question2
+class Question2
 {
   public static void main(String[] args)
   {
@@ -10,7 +10,14 @@ public class Question2
      * Hint: in.nextDouble() to read double
      */
      
-    Scanner in = new Scanner(System.in);
-    double height = in.nextDouble();
+    Scanner hscan = new Scanner(System.in);
+    double height = hscan.nextDouble();
+
+    Scanner wscan = new Scanner(System.in);
+    double weight = wscan.nextDouble();
+
+    double bmi = weight / (height * height);
+    System.out.println(bmi);
+
   }
 }
