@@ -24,8 +24,10 @@ public class Question4
     {
       for (int j = num; j < i; j++)
       {
-        System.out.println("*" * j);
+        System.out.print("*");
       }
+      
+      System.out.println();
     }
   }
 }
