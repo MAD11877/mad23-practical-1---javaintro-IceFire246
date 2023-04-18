@@ -39,7 +39,7 @@ public class Question5
     }
     
     int maxCount = 0;
-    int result;
+    int result = 0;
     for (int i = 0; i < loop; i++)
     {
       int num1 = numArray[i];
