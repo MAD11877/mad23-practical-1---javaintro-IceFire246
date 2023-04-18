@@ -27,11 +27,34 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    int loop = in.newInt();
+    int size = in.newInt();
+    int[] numArray = new int[size]
+    int loop = 0;
     
-    while (loop-- > 0)
+    while (size-- > 0)
     {
+      loop++;
       int num = in.nextInt();
-      
+      numArray[loop] = num;
+    }
+    
+    int maxCount = 0;
+    int result;
+    for (int i = 0; i < loop; i++)
+    {
+      int num1 = numArray[i];
+      int count = 0;
+      for (int j = 0; i < loop; j++)
+      {
+        int num2 = numArray[j];
+        if (num1 == num2) { count++; }
+      }
+      if (count > maxCount)
+      {
+        maxCount = count;
+        result = num1;
+      }
+    }
+    System.out.println(result);
   }
 }
