@@ -28,7 +28,7 @@ public class Question5
      
     Scanner in = new Scanner(System.in);
     int size = in.newInt();
-    int[] numArray = new int[size]
+    int[] numArray = new int[size];
     int loop = 0;
     
     while (size-- > 0)
