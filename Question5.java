@@ -27,7 +27,7 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    int size = in.newInt();
+    int size = in.nextInt();
     int[] numArray = new int[size];
     int loop = 0;
     
