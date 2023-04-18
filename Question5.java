@@ -40,11 +40,11 @@ public class Question5
     
     int maxCount = 0;
     int result = 0;
-    for (int i = 0; i < loop; i++)
+    for (int i = 0; i < size; i++)
     {
       int num1 = numArray[i];
       int count = 0;
-      for (int j = 0; i < loop; j++)
+      for (int j = 0; i < size; j++)
       {
         int num2 = numArray[j];
         if (num1 == num2) { count++; }
