@@ -33,9 +33,9 @@ public class Question5
     
     while (size-- > 0)
     {
-      loop++;
       int num = in.nextInt();
       numArray[loop] = num;
+      loop++;
     }
     
     int maxCount = 0;
